@@ -37,7 +37,7 @@ class NepaliMoment {
     } else if (days < 60) {
       return 'लगभग एक महिना ${isFuture ? 'पछि' : 'पहिले'}';
     } else if (days < 365) {
-      return '${NepaliUnicode.convert('${months.round()}')} दिन ${isFuture ? 'पछि' : 'पहिले'}';
+      return '${NepaliUnicode.convert('${months.round()}')} महिना ${isFuture ? 'पछि' : 'पहिले'}';
     } else if (years < 2) {
       return 'लगभग एक वर्ष ${isFuture ? 'पछि' : 'पहिले'}';
     } else {
